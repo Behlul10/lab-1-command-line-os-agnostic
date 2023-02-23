@@ -16,7 +16,7 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+Applications		Library			My project  Creative Cloud Files  		Pictures     Desktop			Public    Documents		Movies    Downloads		Music
 
 
 ==========
@@ -28,16 +28,34 @@ What happens?  Describe it below.
 ----------
 Desktop/    Documents/  Downloads/
 
-
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
-
+Desktop/
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+$RECYCLE.BIN
+Acc tuff
+COLLEGE
+HOLOGRAM FOOTAGE
+RANDOM
+Screen Shot 2022-03-30 at 2.27.15 PM.png
+Screen Shot 2022-08-24 at 4.25.58 PM.png
+Screen Shot 2022-09-08 at 10.29.02 AM.png
+Screen Shot 2022-09-22 at 5.54.46 PM.png
+Screenshot 2022-11-26 at 11.38.39 PM.png
+Screenshot 2023-01-17 at 7.51.52 PM.png
+Screenshot 2023-01-18 at 6.51.38 PM.png
+Screenshot 2023-01-18 at 9.28.54 PM.png
+Screenshot 2023-01-24 at 7.30.30 PM.png
+Screenshot 2023-01-24 at 9.42.09 PM.png
+Screenshot 2023-01-25 at 11.02.34 AM.png
+Screenshot 2023-01-25 at 12.37.50 AM.png
+Thumbs.db
+desktop.ini
+showings
 
 
 
@@ -48,6 +66,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+total 3824
+drwxr-xr-x   3 richardfeeen  staff      96 Feb  9  2022 $RECYCLE.BIN
 
 
 
@@ -58,7 +78,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+$RECYCLE.BIN
+.
+..
 
 
 ==========
@@ -68,7 +90,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -78,7 +100,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -l Documents
 
 
 ==========
@@ -88,8 +110,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+$ ls /bin
 
 ==========
 8.  Type:
@@ -99,36 +120,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<UP>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
+/Documents 
 
 
 ==========
@@ -139,6 +162,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+zsh: command not found: foo
 
 
 ==========
@@ -149,6 +173,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+ls doesnotexist
 
 
 ==========
@@ -158,3 +183,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+
+Command: ls 
+Argument: Desktop 
+Flag: -a
